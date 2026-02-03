@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
-const Spam =()=>{}
-
-export default Spam
+class Spam extends Component {
+    render() {
+        return (
+            <div>Spam</div>
+        )
+    }
+}
+export default Spam;

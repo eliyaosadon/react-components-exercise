@@ -1,6 +1,14 @@
-import Item from "./Item";
 import React, { Component } from 'react';
+import Item from './Item';
 
-
-const Menu = () => {}
-export default Menu
+class Menu extends Component {
+    render() {
+        return (
+            <div className="menu">
+                <div>Menu</div>
+                <Item />
+            </div>
+        )
+    }
+}
+export default Menu;

@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-
-const Item = () => {}
-
-export default Item
+class Item extends Component {
+    render(){
+        return (
+            <div>Item</div>
+        )
+    }
+}
+export default Item;
